@@ -22,7 +22,7 @@
   width: 60px;
 } */
 header {
-  height: 5vh;
+  height: 10vh;
   padding: 0.5rem;
 }
 section {
@@ -33,7 +33,7 @@ section {
   align-items: flex-start;
 }
 .discriptionContainer {
-  height: 40vh;
+  height: 30vh;
 }
 .imageContainer {
   width: 100%;
