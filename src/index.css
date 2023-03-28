@@ -23,7 +23,7 @@
 } */
 header {
   height: 10vh;
-  padding: 0.5rem;
+  padding: 1.5rem;
 }
 section {
   display: flex;
@@ -100,10 +100,7 @@ main {
   .imageContainer div {
     min-width: 500px;
   }
-  header {
-    height: 5vh;
-    padding: 1.5rem;
-  }
+
   section {
     gap: 10px;
   }
