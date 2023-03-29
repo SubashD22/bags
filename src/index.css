@@ -34,14 +34,14 @@ section {
   align-items: flex-start;
 }
 .discriptionContainer {
-  height: 30vh;
+  height: 35vh;
 }
 .discription {
   padding-bottom: 10px;
 }
 .imageContainer {
   width: 100%;
-  height: 60vh;
+  height: 55vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,13 +69,15 @@ section {
   margin-bottom: 0.3rem;
 }
 .discription button {
-  padding: 0.5rem 0.8rem;
+  padding: 0.8rem 1.3rem;
   border-radius: 10px;
+  font-weight: bold;
   border: none;
   outline: none;
   color: #bdbdbd;
   background-color: #eeeeee;
   font-size: inherit;
+  margin-bottom: 0.3rem;
 }
 @media screen and (min-width: 576px) {
   .imageContainer div {
