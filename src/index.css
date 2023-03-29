@@ -4,6 +4,9 @@
   box-sizing: border-box;
   color: #f5fbf5;
 }
+main {
+  transition: background-color 1000ms linear;
+}
 .items {
   display: flex;
   flex-direction: row;
@@ -18,9 +21,7 @@
 .items div img {
   width: 100%;
 }
-/* .items div:hover {
-  width: 60px;
-} */
+
 header {
   height: 10vh;
   padding: 1.5rem;
@@ -76,26 +77,6 @@ section {
   background-color: #eeeeee;
   font-size: inherit;
 }
-/* .discriptionContainer,
-.imageContainer {
-}
-.discription {
-  margin-top: 50%;
-  width: 40%;
-}
-.imageContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.imageContainer div {
-}
-.bagImage {
-  width: 100%;
-}
-main {
-  height: 100vh;
-} */
 @media screen and (min-width: 576px) {
   .imageContainer div {
     min-width: 500px;
